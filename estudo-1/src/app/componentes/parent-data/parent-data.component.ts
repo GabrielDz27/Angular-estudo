@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-parent-data',
@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
   templateUrl: './parent-data.component.html',
   styleUrl: './parent-data.component.css'
 })
-export class ParentDataComponent {
-
+export class ParentDataComponent  {
 }
