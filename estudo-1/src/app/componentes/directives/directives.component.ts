@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './directives.component.css'
 })
 export class DirectivesComponent {
-
-  
+size = 40;
+font ='Arial';
+  color='Red';
 }
