@@ -8,5 +8,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './if-render.component.css'
 })
 export class IfRenderComponent {
-  canShow = false;
+  canShow: boolean = false;
+  name = 'Gabriel';
 }
+
