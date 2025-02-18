@@ -7,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrl: './listar-pensamento.component.css'
 })
 export class ListarPensamentoComponent {
-
+  listaPensamentos = [
+    {
+      conteudo: 'Adoro programar',
+      autoria: 'componenete Pai',
+      modelo: 'modelo1'
+    },
+    {
+      conteudo: 'Adoro programar',
+      autoria: 'Componente filho',
+      modelo: 'modelo2'
+    }
+  ];
 }
