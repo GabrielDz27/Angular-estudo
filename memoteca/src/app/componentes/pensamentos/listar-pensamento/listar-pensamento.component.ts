@@ -9,8 +9,12 @@ import { PensamentoService } from '../pensamento.service';
 })
 export class ListarPensamentoComponent {
   listaPensamentos: Pensamento [] = [] ;
+
   constructor(private service: PensamentoService) { }
+
   ngOnInit(): void {
-    this.service.listar()
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos
+    })
   }
 }
