@@ -13,12 +13,6 @@
       "modelo": "modelo2"
     },
     {
-      "id": "3",
-      "conteudo": "Aliquam et interdum ipsum, sit amet laoreet velit. In volutpat urna non justo viverra, vehicula bibendum risus mollis.",
-      "autoria": "Gabriel",
-      "modelo": "modelo3"
-    },
-    {
       "conteudo": "Muito bom programar",
       "autoria": "Gabriel",
       "modelo": "modelo1",
@@ -29,12 +23,6 @@
       "autoria": "Gabriel",
       "modelo": "modelo1",
       "id": "5"
-    },
-    {
-      "conteudo": "Aprender é muito importante",
-      "autoria": "Arilson",
-      "modelo": "modelo3",
-      "id": "6"
     }
   ]
 }
